@@ -144,7 +144,7 @@ public class Program
         string mood = "";
         bool validMood = false;
 
-        while (!validMood)
+        while (!validMood) //Here's my extra addition to the code. Each journal entry now also tracks the user's mood.
         {
             Console.Write("How would you rate your mood today (e.g., happy, sad, neutral): ");
             mood = Console.ReadLine().Trim().ToLower();
